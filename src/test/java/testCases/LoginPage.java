@@ -41,6 +41,7 @@ public class LoginPage extends Base{
 		loginPage.clickLogin().click();
 		log.info("invalid login to the application");
 		System.out.println(text);
+		System.out.println("pASSED");
 		
 	}
 	

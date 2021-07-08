@@ -37,7 +37,7 @@ public class HomePage extends Base {
 	public void initialize() throws IOException {
 		driver = initializeDriver();
 		driver.get(prop.getProperty("url"));
-		log.info("initialized");
+		log.info("initialized driver");
 	}
 	
 	@Test
@@ -46,7 +46,9 @@ public class HomePage extends Base {
 		HomePageObject landing= new HomePageObject(driver);
 		Assert.assertEquals(landing.assertFeatureText().getText(),"FEATURED COURSES");
 		Assert.assertTrue(landing.assertNavBar().isDisplayed(), "Nav Bar is not displayed");
+		System.out.println("hello");
 		log.info("baseHomePage executed");
+		
 	}
 	
 	@AfterTest

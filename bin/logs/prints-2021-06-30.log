@@ -1,0 +1,9 @@
+23:29:29.087 [main] INFO  testCases.Courses - initialized
+23:29:39.553 [main] INFO  testCases.Practice - initialized
+23:35:35.455 [main] INFO  resources.Base - initialized
+23:35:35.645 [main] INFO  resources.Base - baseHomePage executed
+23:35:44.080 [main] INFO  resources.Base - initialized
+23:35:45.903 [main] INFO  resources.Base - invalid login to the application
+23:35:53.989 [main] INFO  testCases.Courses - initialized
+23:36:04.519 [main] INFO  testCases.Contact - initialized
+23:36:19.695 [main] INFO  testCases.Practice - initialized
