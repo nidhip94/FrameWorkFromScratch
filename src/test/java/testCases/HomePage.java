@@ -50,6 +50,10 @@ public class HomePage extends Base {
 		log.info("baseHomePage executed");
 		
 	}
+	@Test
+	public void developmentBranch() {
+		System.out.println("dev code in dev branch");	}
+	
 	
 	@AfterTest
 	public void endTesting() {
