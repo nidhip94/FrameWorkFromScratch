@@ -63,6 +63,10 @@ public class LoginPage extends Base{
 		
 	}
 	
+	@Test
+	public void developmentcode() {
+		System.out.println("dev code");	}
+	
 	@AfterTest
 	public void endTesting() {
 		driver.close();
