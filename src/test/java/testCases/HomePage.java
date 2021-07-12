@@ -37,7 +37,7 @@ public class HomePage extends Base {
 	public void initialize() throws IOException {
 		driver = initializeDriver();
 		driver.get(prop.getProperty("url"));
-		log.info("initialized driver");
+		log.info("initialized drivers");
 	}
 	
 	@Test

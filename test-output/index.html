@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
+                    <span class="method-stats">7 methods, 1 failed,   6 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -124,6 +124,16 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testCases.Contact" class="method navigator-link" hash-for-method="contact">contact</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.HomePage" class="method navigator-link" hash-for-method="developmentBranch">developmentBranch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.LoginPage" class="method navigator-link" hash-for-method="developmentcode">developmentcode</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -186,14 +196,14 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testCases.HomePage</span>
+              <span class="class-name">testCases.Practice</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="baseHomePageNavigation">
-                  </a> <!-- baseHomePageNavigation -->
-                  <span class="method-name">baseHomePageNavigation</span>
+                  <a name="practice">
+                  </a> <!-- practice -->
+                  <span class="method-name">practice</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -204,6 +214,13 @@
               <span class="class-name">testCases.LoginPage</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="developmentcode">
+                  </a> <!-- developmentcode -->
+                  <span class="method-name">developmentcode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="login(nidhi@gmail.com, Password1, Valid user)">
@@ -217,14 +234,21 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testCases.Practice</span>
+              <span class="class-name">testCases.HomePage</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="practice">
-                  </a> <!-- practice -->
-                  <span class="method-name">practice</span>
+                  <a name="baseHomePageNavigation">
+                  </a> <!-- baseHomePageNavigation -->
+                  <span class="method-name">baseHomePageNavigation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="developmentBranch">
+                  </a> <!-- developmentBranch -->
+                  <span class="method-name">developmentBranch</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -232,7 +256,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/Users/nidhi/eclipse-workspace/FrameWorkFromScratch/testng.xml</span>
+            <span class="header-content">/Users/nidhi/Documents/FrameWorkFromScratch/testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -316,32 +340,40 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(7);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'contact')
 data.setCell(0, 2, 'testCases.Contact')
-data.setCell(0, 3, 8666);
+data.setCell(0, 3, 8146);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'practice')
 data.setCell(1, 2, 'testCases.Practice')
-data.setCell(1, 3, 6461);
+data.setCell(1, 3, 4241);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'courses')
 data.setCell(2, 2, 'testCases.Courses')
-data.setCell(2, 3, 6085);
+data.setCell(2, 3, 3509);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'login')
 data.setCell(3, 2, 'testCases.LoginPage')
-data.setCell(3, 3, 3268);
+data.setCell(3, 3, 1982);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'baseHomePageNavigation')
 data.setCell(4, 2, 'testCases.HomePage')
-data.setCell(4, 3, 174);
+data.setCell(4, 3, 166);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'developmentcode')
+data.setCell(5, 2, 'testCases.LoginPage')
+data.setCell(5, 3, 2);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'developmentBranch')
+data.setCell(6, 2, 'testCases.HomePage')
+data.setCell(6, 3, 1);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 24 seconds</span>
+              <span class="suite-total-time">Total running time: 18 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -374,73 +406,81 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">baseHomePageNavigation</span>
-                <span class="method-start">13983 ms</span>
+                <span class="method-start">8729 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">developmentBranch</span>
+                <span class="method-start">8904 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">endTesting</span>
-                <span class="method-start">14167 ms</span>
+                <span class="method-start">8907 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.LoginPage</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">initialize</span>
-                <span class="method-start">14777 ms</span>
+                <span class="method-start">10497 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
+                <span class="method-name">developmentcode</span>
+                <span class="method-start">17494 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">login(nidhi@gmail.com, Password1, Valid user)</span>
-                <span class="method-start">29012 ms</span>
+                <span class="method-start">17512 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">endTesting</span>
-                <span class="method-start">32286 ms</span>
+                <span class="method-start">19500 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.Courses</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">initialize</span>
-                <span class="method-start">32463 ms</span>
+                <span class="method-start">20656 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">courses</span>
-                <span class="method-start">43751 ms</span>
+                <span class="method-start">27617 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">endTesting</span>
-                <span class="method-start">50335 ms</span>
+                <span class="method-start">31545 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.Contact</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">initialize</span>
-                <span class="method-start">50610 ms</span>
+                <span class="method-start">31860 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">contact</span>
-                <span class="method-start">65277 ms</span>
+                <span class="method-start">38937 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">endTesting</span>
-                <span class="method-start">73946 ms</span>
+                <span class="method-start">47087 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.Practice</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">initialize</span>
-                <span class="method-start">74172 ms</span>
+                <span class="method-start">47395 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">practice</span>
-                <span class="method-start">88128 ms</span>
+                <span class="method-start">54394 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">endTesting</span>
-                <span class="method-start">94592 ms</span>
+                <span class="method-start">58638 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
