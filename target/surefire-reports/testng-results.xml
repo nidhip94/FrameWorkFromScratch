@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-12T22:33:11 IST" name="Suite" finished-at="2021-07-12T22:34:08 IST" duration-ms="56412">
+  <suite name="Suite" duration-ms="54610" started-at="2021-07-12T23:01:14 IST" finished-at="2021-07-12T23:02:08 IST">
     <groups>
     </groups>
-    <test started-at="2021-07-12T22:33:11 IST" name="Test1" finished-at="2021-07-12T22:33:21 IST" duration-ms="9689">
+    <test name="Test1" duration-ms="10168" started-at="2021-07-12T23:01:14 IST" finished-at="2021-07-12T23:01:24 IST">
       <class name="testCases.HomePage">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:testCases.HomePage@743cb8e0]" started-at="2021-07-12T22:33:11 IST" name="initialize" finished-at="2021-07-12T22:33:20 IST" duration-ms="8387" status="PASS">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testCases.HomePage@27f981c6]" name="initialize" is-config="true" duration-ms="8877" started-at="2021-07-12T23:01:14 IST" finished-at="2021-07-12T23:01:23 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="baseHomePageNavigation()[pri:0, instance:testCases.HomePage@743cb8e0]" started-at="2021-07-12T22:33:20 IST" name="baseHomePageNavigation" finished-at="2021-07-12T22:33:20 IST" duration-ms="151" status="PASS">
+        <test-method status="PASS" signature="baseHomePageNavigation()[pri:0, instance:testCases.HomePage@27f981c6]" name="baseHomePageNavigation" duration-ms="129" started-at="2021-07-12T23:01:23 IST" finished-at="2021-07-12T23:01:23 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- baseHomePageNavigation -->
-        <test-method signature="developmentBranch()[pri:0, instance:testCases.HomePage@743cb8e0]" started-at="2021-07-12T22:33:20 IST" name="developmentBranch" finished-at="2021-07-12T22:33:20 IST" duration-ms="0" status="PASS">
+        <test-method status="PASS" signature="developmentBranch()[pri:0, instance:testCases.HomePage@27f981c6]" name="developmentBranch" duration-ms="0" started-at="2021-07-12T23:01:23 IST" finished-at="2021-07-12T23:01:23 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- developmentBranch -->
-        <test-method is-config="true" signature="endTesting()[pri:0, instance:testCases.HomePage@743cb8e0]" started-at="2021-07-12T22:33:20 IST" name="endTesting" finished-at="2021-07-12T22:33:21 IST" duration-ms="1122" status="PASS">
+        <test-method status="PASS" signature="endTesting()[pri:0, instance:testCases.HomePage@27f981c6]" name="endTesting" is-config="true" duration-ms="1108" started-at="2021-07-12T23:01:23 IST" finished-at="2021-07-12T23:01:24 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTesting -->
       </class> <!-- testCases.HomePage -->
     </test> <!-- Test1 -->
-    <test started-at="2021-07-12T22:33:21 IST" name="Test2" finished-at="2021-07-12T22:33:31 IST" duration-ms="10026">
+    <test name="Test2" duration-ms="9053" started-at="2021-07-12T23:01:25 IST" finished-at="2021-07-12T23:01:34 IST">
       <class name="testCases.LoginPage">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:testCases.LoginPage@26fb628]" started-at="2021-07-12T22:33:21 IST" name="initialize" finished-at="2021-07-12T22:33:29 IST" duration-ms="7083" status="PASS">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testCases.LoginPage@51c668e3]" name="initialize" is-config="true" duration-ms="6082" started-at="2021-07-12T23:01:25 IST" finished-at="2021-07-12T23:01:31 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="developmentcode()[pri:0, instance:testCases.LoginPage@26fb628]" started-at="2021-07-12T22:33:29 IST" name="developmentcode" finished-at="2021-07-12T22:33:29 IST" duration-ms="2" status="PASS">
+        <test-method status="PASS" signature="developmentcode()[pri:0, instance:testCases.LoginPage@51c668e3]" name="developmentcode" duration-ms="2" started-at="2021-07-12T23:01:31 IST" finished-at="2021-07-12T23:01:31 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- developmentcode -->
-        <test-method signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginPage@26fb628]" started-at="2021-07-12T22:33:29 IST" name="login" data-provider="getData" finished-at="2021-07-12T22:33:30 IST" duration-ms="1863" status="PASS">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginPage@51c668e3]" name="login" duration-ms="1816" started-at="2021-07-12T23:01:31 IST" data-provider="getData" finished-at="2021-07-12T23:01:32 IST">
           <params>
             <param index="0">
               <value>
@@ -56,55 +56,55 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="endTesting()[pri:0, instance:testCases.LoginPage@26fb628]" started-at="2021-07-12T22:33:30 IST" name="endTesting" finished-at="2021-07-12T22:33:31 IST" duration-ms="1061" status="PASS">
+        <test-method status="PASS" signature="endTesting()[pri:0, instance:testCases.LoginPage@51c668e3]" name="endTesting" is-config="true" duration-ms="1113" started-at="2021-07-12T23:01:32 IST" finished-at="2021-07-12T23:01:34 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTesting -->
       </class> <!-- testCases.LoginPage -->
     </test> <!-- Test2 -->
-    <test started-at="2021-07-12T22:33:32 IST" name="Test3" finished-at="2021-07-12T22:33:41 IST" duration-ms="9835">
+    <test name="Test3" duration-ms="9619" started-at="2021-07-12T23:01:34 IST" finished-at="2021-07-12T23:01:43 IST">
       <class name="testCases.Courses">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:testCases.Courses@2c9399a4]" started-at="2021-07-12T22:33:32 IST" name="initialize" finished-at="2021-07-12T22:33:38 IST" duration-ms="6086" status="PASS">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testCases.Courses@7b36aa0c]" name="initialize" is-config="true" duration-ms="5986" started-at="2021-07-12T23:01:34 IST" finished-at="2021-07-12T23:01:40 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="courses()[pri:0, instance:testCases.Courses@2c9399a4]" started-at="2021-07-12T22:33:38 IST" name="courses" finished-at="2021-07-12T22:33:41 IST" duration-ms="3605" status="PASS">
+        <test-method status="PASS" signature="courses()[pri:0, instance:testCases.Courses@7b36aa0c]" name="courses" duration-ms="3500" started-at="2021-07-12T23:01:40 IST" finished-at="2021-07-12T23:01:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- courses -->
-        <test-method is-config="true" signature="endTesting()[pri:0, instance:testCases.Courses@2c9399a4]" started-at="2021-07-12T22:33:41 IST" name="endTesting" finished-at="2021-07-12T22:33:41 IST" duration-ms="143" status="PASS">
+        <test-method status="PASS" signature="endTesting()[pri:0, instance:testCases.Courses@7b36aa0c]" name="endTesting" is-config="true" duration-ms="124" started-at="2021-07-12T23:01:43 IST" finished-at="2021-07-12T23:01:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTesting -->
       </class> <!-- testCases.Courses -->
     </test> <!-- Test3 -->
-    <test started-at="2021-07-12T22:33:42 IST" name="Test4" finished-at="2021-07-12T22:33:56 IST" duration-ms="14726">
+    <test name="Test4" duration-ms="14063" started-at="2021-07-12T23:01:43 IST" finished-at="2021-07-12T23:01:57 IST">
       <class name="testCases.Contact">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:testCases.Contact@5bda80bf]" started-at="2021-07-12T22:33:42 IST" name="initialize" finished-at="2021-07-12T22:33:49 IST" duration-ms="7117" status="PASS">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testCases.Contact@229c6181]" name="initialize" is-config="true" duration-ms="5877" started-at="2021-07-12T23:01:43 IST" finished-at="2021-07-12T23:01:49 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="contact()[pri:0, instance:testCases.Contact@5bda80bf]" started-at="2021-07-12T22:33:49 IST" name="contact" finished-at="2021-07-12T22:33:56 IST" duration-ms="7523" status="PASS">
+        <test-method status="PASS" signature="contact()[pri:0, instance:testCases.Contact@229c6181]" name="contact" duration-ms="8067" started-at="2021-07-12T23:01:49 IST" finished-at="2021-07-12T23:01:57 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contact -->
-        <test-method is-config="true" signature="endTesting()[pri:0, instance:testCases.Contact@5bda80bf]" started-at="2021-07-12T22:33:56 IST" name="endTesting" finished-at="2021-07-12T22:33:56 IST" duration-ms="83" status="PASS">
+        <test-method status="PASS" signature="endTesting()[pri:0, instance:testCases.Contact@229c6181]" name="endTesting" is-config="true" duration-ms="112" started-at="2021-07-12T23:01:57 IST" finished-at="2021-07-12T23:01:57 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTesting -->
       </class> <!-- testCases.Contact -->
     </test> <!-- Test4 -->
-    <test started-at="2021-07-12T22:33:56 IST" name="Test5" finished-at="2021-07-12T22:34:08 IST" duration-ms="11385">
+    <test name="Test5" duration-ms="10922" started-at="2021-07-12T23:01:58 IST" finished-at="2021-07-12T23:02:08 IST">
       <class name="testCases.Practice">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:testCases.Practice@6a62689d]" started-at="2021-07-12T22:33:56 IST" name="initialize" finished-at="2021-07-12T22:34:03 IST" duration-ms="7002" status="PASS">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testCases.Practice@e350b40]" name="initialize" is-config="true" duration-ms="6235" started-at="2021-07-12T23:01:58 IST" finished-at="2021-07-12T23:02:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="practice()[pri:0, instance:testCases.Practice@6a62689d]" started-at="2021-07-12T22:34:03 IST" name="practice" finished-at="2021-07-12T22:34:08 IST" duration-ms="4253" status="PASS">
+        <test-method status="PASS" signature="practice()[pri:0, instance:testCases.Practice@e350b40]" name="practice" duration-ms="4534" started-at="2021-07-12T23:02:04 IST" finished-at="2021-07-12T23:02:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- practice -->
-        <test-method is-config="true" signature="endTesting()[pri:0, instance:testCases.Practice@6a62689d]" started-at="2021-07-12T22:34:08 IST" name="endTesting" finished-at="2021-07-12T22:34:08 IST" duration-ms="128" status="PASS">
+        <test-method status="PASS" signature="endTesting()[pri:0, instance:testCases.Practice@e350b40]" name="endTesting" is-config="true" duration-ms="147" started-at="2021-07-12T23:02:08 IST" finished-at="2021-07-12T23:02:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTesting -->

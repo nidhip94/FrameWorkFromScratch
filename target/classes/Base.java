@@ -28,7 +28,8 @@ public class Base {
 		FileInputStream fis = new FileInputStream(System.getProperty("user.dir") +"/src/main/java/resources/data.properties");
 		prop.load(fis);
 		//Get the value of browser you want to invoke from Properties file
-		String browserName = prop.getProperty("browser");
+		//from terminal send parameter and value using cmd , mvn test -Dbrowser=chrome
+		String browserName = System.getProperty("browser");//this take value from maven cmd , maven treat property as system variable
 		if(browserName.equalsIgnoreCase("chrome")) {
 			//invoke chrome driver
 			System.setProperty("webdriver.chrome.driver", "/Users/nidhi/Documents/seleniumJars/chromedriver");
