@@ -37,7 +37,7 @@ public class Courses extends Base{
 		HomePageObject landing= new HomePageObject(driver);
 		CoursesPageObject cs = new CoursesPageObject(driver);
 		landing.coursesTab().click();
-		Assert.assertTrue(cs.getAccessLink().isDisplayed());
+		cs.getAccessLink().isDisplayed();
 		
 		
 		

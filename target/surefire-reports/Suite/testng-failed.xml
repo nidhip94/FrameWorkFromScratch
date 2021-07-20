@@ -4,6 +4,30 @@
   <listeners>
     <listener class-name="resources.Listeners"/>
   </listeners>
+  <test thread-count="5" verbose="0" name="Test1(failed)">
+    <classes>
+      <class name="testCases.HomePage">
+        <methods>
+          <include name="baseHomePageNavigation"/>
+          <include name="initialize"/>
+          <include name="developmentBranch"/>
+          <include name="endTesting"/>
+        </methods>
+      </class> <!-- testCases.HomePage -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="5" verbose="0" name="Test2(failed)">
+    <classes>
+      <class name="testCases.LoginPage">
+        <methods>
+          <include name="login"/>
+          <include name="initialize"/>
+          <include name="developmentcode"/>
+          <include name="endTesting"/>
+        </methods>
+      </class> <!-- testCases.LoginPage -->
+    </classes>
+  </test> <!-- Test2(failed) -->
   <test thread-count="5" verbose="0" name="Test3(failed)">
     <classes>
       <class name="testCases.Courses">
@@ -15,4 +39,26 @@
       </class> <!-- testCases.Courses -->
     </classes>
   </test> <!-- Test3(failed) -->
+  <test thread-count="5" verbose="0" name="Test4(failed)">
+    <classes>
+      <class name="testCases.Contact">
+        <methods>
+          <include name="initialize"/>
+          <include name="endTesting"/>
+          <include name="contact"/>
+        </methods>
+      </class> <!-- testCases.Contact -->
+    </classes>
+  </test> <!-- Test4(failed) -->
+  <test thread-count="5" verbose="0" name="Test5(failed)">
+    <classes>
+      <class name="testCases.Practice">
+        <methods>
+          <include name="endTesting"/>
+          <include name="practice"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- testCases.Practice -->
+    </classes>
+  </test> <!-- Test5(failed) -->
 </suite> <!-- Failed suite [Suite] -->
